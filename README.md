@@ -1,2 +1,2 @@
 # bulletin-board-system
-BBS using HTTP Servlet
+Bulleting Board System using HTTP Servlet
