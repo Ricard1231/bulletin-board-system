@@ -1,0 +1,11 @@
+* {margin:0; padding:0;}
+
+hr {
+	border-top:1px solid #9ca7b6;
+}
+.footCont{
+/* 	background:#ffffff; */
+	text-align: left;
+	margin-top:50px;
+	color:#9ca7b6;
+}

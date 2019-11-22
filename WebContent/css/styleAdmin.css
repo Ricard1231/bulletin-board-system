@@ -1,0 +1,25 @@
+* {padding:0; margin:0}
+body {
+	font-family: arial, sans-serif;
+	background:#dff5ff;
+}
+
+.container {
+	width:970px;
+	margin:auto;
+}
+
+.header {
+	margin-top:10px;
+}
+
+.content{
+	margin-top:15px;
+	background:#0288bb;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	width:970px;
+	color:#ffffff;
+	font-size: 13px;
+}

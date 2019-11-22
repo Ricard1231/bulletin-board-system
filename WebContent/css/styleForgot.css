@@ -1,0 +1,142 @@
+* {margin:0; padding:0}
+body {
+	background-color:#3c3c3c;
+	background-image:url(../images/page_side_overlay_img.png);
+	font-family: arial;
+	color:#1F1F1F;
+}
+.container{
+	padding: 8% 0 0;
+}
+.form { 
+	width: 570px;
+	margin:auto;
+	background-color:#FFFFFF;
+	padding:25px 10px 20px;
+}
+/** atribute selector **/
+input[type=number]{
+	background:#F2F2F2;
+	border:none;
+	padding:10px;
+	margin-bottom:15px;
+	width:80px;
+}
+input[type=text]{
+	background:#F2F2F2;
+	border:none;
+	padding:10px;
+	margin-bottom:15px;
+	width:490px;
+}
+input[type=password]{
+	background:#F2F2F2;
+	border:none;
+	padding:10px;
+	margin-bottom:15px;
+	width:490px;
+}
+input[type=submit]{
+	padding:15px;
+	border-style:none;
+	width:510px;
+	font-size: 16px;
+	cursor:pointer;
+	background-color: #43A047;
+	color:white;
+	margin-bottom:15px;
+}
+
+input[type=radio]{
+	margin-right: 5px;
+	margin-bottom:15px;
+}
+
+input[type=date]{
+	background:#F2F2F2;
+	border:none;
+	padding:10px;
+	margin-bottom:15px;
+}
+
+h2 {
+	margin-bottom:15px;
+}
+.register p {
+	font-size: 12px;
+	margin-bottom:15px;
+	width:500px;
+}
+
+.form h1{
+	font-family:Impact, Charcoal, sans-serif;
+	text-align:center;
+	color:#363636;
+	margin-bottom:30px;
+}
+
+.agreement {
+	color:#b3b3b3;
+	font-family: arial;
+	font-size:12px;
+}
+.register a {
+	font-size:12px;
+	color:#4CAF50;
+	text-decoration: none;
+}
+.register a:hover{
+	text-decoration:underline;
+}
+
+.header {
+	background-color:rgba(40,40,40,0.6);
+	height:70px;
+	overflow:hidden;
+}
+
+.leftHeader {
+	float:left;
+	margin:10px 0px 10px 30px;
+}
+
+.rightHeader {
+	float:right;
+}
+
+.rightHeader ul {
+	list-style:none;
+}
+.rightHeader ul li{
+	float:left;
+}
+.rightHeader ul li a{
+	color: #fff;
+	text-decoration: none;
+	line-height: 70px;
+	display: block;
+	padding: 0 20px;
+}
+.rightHeader a:hover {
+	background:#EF1F27;
+}
+.footer {
+	background-color:rgba(40,40,40,0.6);
+	height:40px;
+	margin-top: 180px;
+	overflow:hidden;
+	color: #ffffff;
+	font-size:12px;
+}
+
+.footer .footLeft{
+	float: left;
+	line-height:40px;
+	margin-left:20px;
+}
+
+.footer .footRight{
+	float:right;
+	line-height:40px;
+	margin-right:20px;
+}

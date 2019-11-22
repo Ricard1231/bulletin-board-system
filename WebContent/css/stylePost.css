@@ -1,0 +1,102 @@
+* {padding:0; margin:0;}
+
+body {
+	font-family: arial, sans-serif;
+	background:#dff5ff;
+}
+
+.container {
+	width:980px;
+	margin:auto;
+}
+
+.header {
+	margin-top:10px;
+}
+
+
+/* POST */
+.thePost {
+	background:#f3fdfe;	
+	overflow:hidden;
+	margin-top:15px;
+}
+.headBar {
+	background:#0288bb;
+	color:white;
+	height:25px;
+	line-height:25px;
+	padding-left:10px;
+}
+.pUser-details {
+	background:#e2f5fa;
+	height:50px;
+	padding:15px;
+}
+
+.pUser-avatar {
+	float:left;
+}
+.pUser-avatar img {
+	width:50px;
+	height:auto;
+}
+.pUser-info {
+	float:left;
+	margin-left:10px;
+	padding-top:10px;
+}
+/* Content */
+.pContent {
+	padding: 40px 15px 0;
+}
+.pContent p {
+	margin:20px 0;
+}
+
+.replyButton {
+	padding:30px 0 15px;
+}
+.replyButton img{
+	width:20px;
+	height:auto;
+}
+.replyButton a {
+	font-family: arial, sans-serif;
+	text-decoration:none;
+	color:#0288bb;
+}
+.replyButton a:hover {
+	text-decoration:underline;
+}
+/* REPLY */
+.theReply {
+	overflow:hidden;
+	background:#dff9fb;
+
+}
+.rContent {
+	margin-bottom:20px;
+}
+.rContent .rUser-avatar{
+	width:127px;
+	height:auto;
+	margin:0 10px 10px 10px;
+}
+.rUser-details {
+	padding:10px 0;
+	float:left;
+	width:15%;
+	background:#eaf2f2;
+}
+.rUser-details p {
+	margin-left:13px;
+}
+.replyContent {
+	padding-top:30px;
+	float:right;
+	width:85%;
+}
+.replyContent p {
+	margin: 0 15px;
+}

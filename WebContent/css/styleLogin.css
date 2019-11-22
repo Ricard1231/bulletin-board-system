@@ -1,0 +1,140 @@
+* {padding:0; margin:0}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+	font-family: arial, sans-serif;
+	background:#dff5ff;
+      
+}
+.header {
+	margin-top:10px;
+}
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+.loginForm{
+ 	margin-top:15px;
+ 	background:#ffffff;
+ 	padding:30px;
+ 	text-align:center;
+}
+
+.title {
+	text-align:left;
+	margin-left:199px;
+	margin-bottom:10px;
+	color:#0288bb;
+	font-weight:bold;
+}
+
+/* Input */
+input[type=text] {
+	padding:10px;
+	width:500px;
+	margin-bottom:5px;
+	border:1px solid #c1dde8;
+}
+input[type=password] {
+	padding:10px;
+	width:500px;
+	margin: 5px 0;
+	border:1px solid #c1dde8;
+}
+input[type=submit] {
+	padding:10px;
+	width:257px;
+	margin: 5px 0;
+	border:none;
+	background:#3da5fa;
+	color:#ffffff;
+}
+input[type=submit]:hover {
+	background:#0686ee;
+}
+
+input[type=reset] {
+	padding:10px;
+	width:257px;
+	margin: 5px 0;
+	border:none;
+	color:#ffffff;
+	background:#0288bb;
+}
+input[type=reset]:hover {
+	background:#016a92;
+}
+
+.optional {
+	margin-top:35px;
+	text-align:right;
+	margin-right:199px;
+	font-size:13px;
+	color:#354955;
+}
+.optional a{
+	color:#3da5fa;
+	text-decoration:none;
+}
+.optional a:hover{
+	text-decoration:underline;
+}
+
+
+/* Select */
+.custom-select {
+  position:relative;
+  width:521px;
+  margin-left:199px;
+  border:1px solid #c1dde8;
+}
+.custom-select select{
+ 	display:none;
+/*   outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px; */
+}
+.select-selected {
+  padding: 15px;	
+}
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;	
+  border: 6px solid transparent;
+  border-color: #c1dde8 transparent transparent transparent;
+}
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+.select-items div,.select-selected {
+  color: #477181;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+.select-items {
+  background:#dff5ff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background:#93dcff;
+} 
